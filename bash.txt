@@ -1,0 +1,5 @@
+export PATH=$PATH:<tools>:.
+export PS1='\W/> '
+
+alias h='history | tail -n 20'
+alias cls='clear'
