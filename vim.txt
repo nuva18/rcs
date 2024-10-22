@@ -1,1 +1,2 @@
-syntax off
+syntax off  # No colors.
+set nowrap  # Don't wrap long lines.
