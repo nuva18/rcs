@@ -1,7 +1,15 @@
 export PATH=(output of echo $PATH):(tools):.
 export PS1='\W/> '
 
+export prog=''
+export down=''
+export stuf=''
+export sch=''
+
 alias h='history | tail -n 20'
 alias cls='clear'
-alias clovdate='TZ='Australia/Adelaide' date'
+alias c='cargo'
+alias dn='dotnet' 
+alias cdate='TZ='Australia/Adelaide' date'
 alias wttr='curl wttr.in'
+alias hydra=''
